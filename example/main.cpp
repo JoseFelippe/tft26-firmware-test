@@ -31,7 +31,7 @@ int main() {
         io.digital_write(0, btn);
 
         if (btn != last_state) {
-            std::printf("Button %-3s → LED %s\n",
+            std::printf("Button %-3s -> LED %s\n",
                 btn ? "ON" : "OFF",
                 btn ? "ON" : "OFF");
             last_state = btn;
